@@ -99,14 +99,13 @@ const Features = () => {
               </p>
             </div>
           </div>
+
           <div
             className="w-full flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 text-justify cursor-pointer"
             id="feature2"
           >
             <div className="w-80 md:h-80" id="featuresContent2">
-              <h3 className="text-2xl font-bold mb-2">
-                Use of AI & Machine Learning
-              </h3>
+              <h3 className="text-2xl font-bold mb-2">Use of AI</h3>
               <div className="w-full bg-white h-0.5 my-2"></div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -121,7 +120,7 @@ const Features = () => {
             <div>
               <img
                 src="https://plus.unsplash.com/premium_photo-1683120966127-14162cdd0935?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="a person playing quiz on tab"
+                alt="An image of text written as AI"
                 className="w-80 h-80 object-cover rounded-lg features-img"
               />
             </div>

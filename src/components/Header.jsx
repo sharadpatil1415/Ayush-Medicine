@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="w-full h-16 md:h-20 text-white absolute md:flex md:justify-between md:items-center top-0 z-20">
       <div className="ml-6 mt-4 md:mt-0 cursor-pointer font-bold text-lg">
-        <h2>Ayush Herbal Plants</h2>
+        <h2>AYUSH HERBAL</h2>
       </div>
       <div className="md:flex-row md:justify-between md:items-center md:gap-8 mr-6 hidden md:flex">
         <div className="flex gap-4 cursor-pointer flex-col md:flex-row">

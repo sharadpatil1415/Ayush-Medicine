@@ -21,25 +21,20 @@ const HeroSection = () => {
   return (
     <div className="w-full h-screen relative">
       <Header />
-      {/* <img
-        src={Image}
-        alt="a plant image"
-        className="w-full h-screen object-cover"
-      /> */}
       <video autoPlay loop muted className="w-full h-full object-cover">
         <source src={Video} />
       </video>
       <div className="overlay"></div>
-      <div className="absolute top-48 left-20 text-white font-sans">
-        <h1 className="text-center font-bold text-4xl md:text-6xl leading-tight md:tracking-wider lg:text-left my-10 heading">
-          Aayush Herbal: Your <br />
+      <div className="absolute top-48 left-20 text-white font-sans ">
+        <h1 className="text-center font-bold text-4xl -ml-20 md:text-6xl leading-tight md:tracking-wider lg:text-left my-10 heading sm:ml-16 md:-ml-8">
+          AYUSH Herbal : Your <br />
           Ayurvedic Plant Guide
         </h1>
-        <p className="md:text-xl lg:text-left md:tracking-[0.4rem] text-center subHeading">
-          Explore top Ayurvedic plant's benefits, uses and
-          <br /> wellness tips with Ayush Herbal
+        <p className="md:text-xl lg:text-left md:tracking-[0.4rem] text-center sm:ml-16 -ml-20 md:-ml-8 subHeading">
+          Explore top Ayurvedic plant's benefits, <br />
+          uses and wellness tips with <strong>AYUSH</strong> Herbal
         </p>
-        <div className="mt-6 ml-28 sm:ml-32 md:ml-40 lg:ml-0">
+        <div className="mt-10 lg:mt-6 ml-14 sm:ml-48 md:ml-72 lg:-ml-8">
           <button className=" bg-white text-black px-4 py-2 rounded-md hover:bg-transparent hover:text-white hover:border-[1px] hover:border-white transition-all duration-300">
             Get Started
           </button>
